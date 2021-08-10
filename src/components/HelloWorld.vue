@@ -34,6 +34,9 @@
           <a href="https://sugoi-mojiokoshi.varygoodkun.net" class="portfolio-item">
             <div class="portfolio-icon"><p>すごい文字起こし<br>ばりぐっどくん</p></div>
           </a>
+          <a href="https://www.shigureni.com/" class="portfolio-item">
+            <div class="portfolio-icon"><p>shigureni<br>システム準備中</p></div>
+          </a>
         </div>
       </div>
     </div>
