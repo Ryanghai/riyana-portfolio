@@ -32,10 +32,16 @@
         </div>
         <div class="portfolio-contents">
           <a href="https://sugoi-mojiokoshi.varygoodkun.net" class="portfolio-item">
-            <div class="portfolio-icon"><p>すごい文字起こし<br>ばりぐっどくん</p></div>
+            <div class="portfolio-icon">
+              <img src="../assets/icon.png" alt="">
+              <p>すごい文字起こし<br>ばりぐっどくん</p>
+            </div>
           </a>
           <a href="https://www.shigureni.com/" class="portfolio-item">
-            <div class="portfolio-icon"><p>shigureni<br>システム準備中</p></div>
+            <div class="portfolio-icon">
+              <img src="../assets/icon.png" alt="">
+              <p>shigureni<br>システム準備中…</p>
+            </div>
           </a>
         </div>
       </div>
@@ -51,6 +57,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+.all-wrapper {
+  font-family: 'Noto Sans', sans-serif;
+}
 .top-image {
   position: relative;
 }
@@ -73,7 +83,8 @@ export default {
 .main-icon img {
   width: 100px;
   height: 100px;
-  margin-top: -60px;
+  margin-top: -50px;
+  border: 2px solid #9893bd;
   border-radius: 50%;
 }
 
@@ -82,6 +93,7 @@ export default {
   font-weight: bold;
   color: #221f38;
   font-size: 18px;
+  margin-top: 20px;
 }
 
 .introduce p {
@@ -89,10 +101,11 @@ export default {
   font-size: 14px;
   width: 70%;
   color: #545261;
+  margin-top: 10px;
 }
 
 .main-sns {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .sns-title span {
@@ -114,18 +127,18 @@ export default {
 }
 
 .sns-icon {
-  width: 100px;
-  height: 100px;
+  width: 55px;
+  height: 55px;
 }
 
 .sns-icon img {
-  width: 60px;
-  height: 60px;
-  margin: 22px 0 0 0;
+  width: 30px;
+  height: 30px;
+  margin: 12px -2px 0 0;
 }
 
 .main-portfolio {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .portfolio-title span {
@@ -144,15 +157,24 @@ export default {
   margin: 16px 8px;
   background: #9893bd;
   text-decoration: none;
-  color: #fff;
 }
 
 .portfolio-icon {
-  width: 180px;
-  height: 120px;
+  width: 124px;
+  height: 93px;
+  position: relative;
+  margin: 0 auto;
+  box-shadow: 5px 5px 15px #e3e3e3, -5px -5px 15px #fff;
+}
+
+.portfolio-icon img {
+  width: 100%;
+  height: 100%;
 }
 
 .portfolio-icon p {
-  padding-top: 30px;
+  margin: 0;
+  font-size: 14px;
+  color: #545261;
 }
 </style>
